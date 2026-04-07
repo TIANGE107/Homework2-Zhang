@@ -20,3 +20,6 @@ This prototype uses a command-line Python script to run a stable evaluation work
 
 ## Reproducibility
 A grader can reproduce the workflow by running `python3 app.py`, using the prompts documented in `prompts.md`, and entering generated responses for the cases in `eval_set.json`.
+
+## Video Walkthrough
+[https://youtu.be/ndo8T7JC5js?si=SjmlHfclJa8DKZyA]
