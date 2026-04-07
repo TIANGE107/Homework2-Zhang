@@ -1,0 +1,32 @@
+[
+  {
+    "id": 1,
+    "type": "normal",
+    "customer_message": "Hi, my order was supposed to arrive three days ago, but I still have not received it. Can you please check the status?",
+    "good_output_note": "Should apologize, acknowledge delay, and offer help checking the order."
+  },
+  {
+    "id": 2,
+    "type": "normal",
+    "customer_message": "I received the wrong item in my package. I ordered a blue medium sweater, but I got a black small one.",
+    "good_output_note": "Should apologize and provide replacement or return instructions."
+  },
+  {
+    "id": 3,
+    "type": "edge",
+    "customer_message": "Your service is terrible. Nobody has helped me.",
+    "good_output_note": "Should remain calm and professional and acknowledge frustration."
+  },
+  {
+    "id": 4,
+    "type": "human_review_needed",
+    "customer_message": "I want a full refund and compensation for the stress caused.",
+    "good_output_note": "Should not promise compensation and should suggest escalation."
+  },
+  {
+    "id": 5,
+    "type": "edge",
+    "customer_message": "My package arrived damaged. What can you do?",
+    "good_output_note": "Should apologize and offer return or replacement options."
+  }
+]
