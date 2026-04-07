@@ -1,0 +1,37 @@
+[
+  {
+    "id": 1,
+    "type": "normal",
+    "customer_message": "Hi, my order was supposed to arrive three days ago, but I still have not received it. Can you please check the status?",
+    "model_response": "Hi there,\n\nI’m really sorry for the delay with your order — I understand how frustrating that must be. Let me help you look into this right away.\n\nCould you please confirm your order number? Once I have that, I’ll check the latest status and provide an update as soon as possible.\n\nThanks for your patience, and I’ll make sure we get this resolved for you.\n\nBest regards,\nCustomer Support Team",
+    "good_output_note": "Should apologize, acknowledge delay, and offer help checking the order."
+  },
+  {
+    "id": 2,
+    "type": "normal",
+    "customer_message": "I received the wrong item in my package. I ordered a blue medium sweater, but I got a black small one.",
+    "model_response": "Hi there,\n\nI’m very sorry for the mix-up with your order — I understand how disappointing that must be.\n\nWe’d be happy to help make this right. Please let us know if you’d prefer a replacement or a return, and we’ll guide you through the next steps.\n\nThank you for bringing this to our attention, and we’ll work to resolve this as quickly as possible.\n\nBest regards,\nCustomer Support Team",
+    "good_output_note": "Should apologize and provide replacement or return instructions."
+  },
+  {
+    "id": 3,
+    "type": "edge",
+    "customer_message": "Your service is terrible. Nobody has helped me.",
+    "model_response": "Hi there,\n\nI’m really sorry to hear about your experience, and I completely understand your frustration.\n\nWe want to make sure you get the help you need. Could you please share a bit more detail about what’s been going on so we can take a closer look and assist you properly?\n\nWe appreciate your patience and are here to help.\n\nBest regards,\nCustomer Support Team",
+    "good_output_note": "Should remain calm and professional and acknowledge frustration."
+  },
+  {
+    "id": 4,
+    "type": "human_review_needed",
+    "customer_message": "I want a full refund and compensation for the stress caused.",
+    "model_response": "Hi there,\n\nI’m sorry to hear about your experience, and I understand your concerns.\n\nTo ensure we handle your request appropriately, I’ll escalate this case to our support team for further review. They will carefully assess the situation and follow up with you regarding next steps.\n\nThank you for your patience while we look into this.\n\nBest regards,\nCustomer Support Team",
+    "good_output_note": "Should not promise compensation and should suggest escalation."
+  },
+  {
+    "id": 5,
+    "type": "edge",
+    "customer_message": "My package arrived damaged. What can you do?",
+    "model_response": "Hi there,\n\nI’m very sorry to hear that your package arrived damaged — I understand how frustrating that must be.\n\nWe’d be happy to help resolve this for you. Please let us know if you’d prefer a replacement or a return, and we’ll guide you through the next steps.\n\nThank you for reaching out, and we’ll work to fix this as quickly as possible.\n\nBest regards,\nCustomer Support Team",
+    "good_output_note": "Should apologize and offer return or replacement options."
+  }
+]
